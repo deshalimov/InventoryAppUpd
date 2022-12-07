@@ -25,7 +25,7 @@
     <TextView
         android:id="@+id/item_name"
         style="@style/Widget.Inventory.Header"
-        android:layout_marginStart="@dimen/margin_between_elements"
+        android:layout_marginStart="15dp"
         android:text="@string/item"
         app:layout_constraintEnd_toStartOf="@+id/item_price"
         app:layout_constraintHorizontal_weight="2"
@@ -68,6 +68,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
+        android:paddingStart="5dp"
         android:layout_height="wrap_content"
         android:scrollbars="vertical"
         app:layout_constraintEnd_toEndOf="parent"

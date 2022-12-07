@@ -85,6 +85,9 @@ class ItemDetailFragment : Fragment() {
             itemProviderName.text = item.providerName
             itemProviderEmail.text = item.providerEmail
             itemProviderPhone.text = item.providerPhone
+            itemRecord.text = item.record.toString()
+            // textView
+            item
             sellItem.isEnabled = viewModel.isStockAvailable(item)
             sellItem.setOnClickListener { viewModel.sellItem(item) }
             deleteItem.setOnClickListener { showConfirmationDialog() }

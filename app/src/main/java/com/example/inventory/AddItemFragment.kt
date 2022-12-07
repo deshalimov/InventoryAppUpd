@@ -90,7 +90,6 @@ class AddItemFragment : Fragment() {
 
     private fun bind(item: Item) {
         val price = "%.2f".format(item.itemPrice).replace(',', '.')
-        Log.wtf("------------------------------------", price)
         binding.apply {
             itemName.setText(item.itemName, TextView.BufferType.SPANNABLE)
             itemPrice.setText(price, TextView.BufferType.SPANNABLE)

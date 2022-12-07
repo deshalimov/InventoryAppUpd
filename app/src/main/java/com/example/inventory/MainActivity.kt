@@ -36,6 +36,7 @@ import androidx.navigation.ui.NavigationUI.setupActionBarWithNavController
 import androidx.security.crypto.EncryptedFile
 import androidx.security.crypto.MasterKey
 import com.example.inventory.data.Item
+import com.example.inventory.data.Record
 import com.google.gson.Gson
 import java.io.ByteArrayOutputStream
 import java.io.File
@@ -150,6 +151,7 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
 
                         val gson = Gson()
                         val item = gson.fromJson(plaintext.toString(Charsets.UTF_8), Item::class.java)
+                        item.record = Record.FILE
 
 
                         viewModel.addNewItem(item)

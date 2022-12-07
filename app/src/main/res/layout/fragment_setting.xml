@@ -72,7 +72,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:minHeight="48dp"
-            android:text="@string/switch_default"
+            android:text="Remember the enter data"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/default_provider_phone_label" />
@@ -83,7 +83,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:minHeight="48dp"
-            android:text="@string/switch_default"
+            android:text="Hide user data"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/switch_default" />
@@ -94,7 +94,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:minHeight="48dp"
-            android:text="@string/switch_default"
+            android:text="The share button is not active"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/switch_hide" />
